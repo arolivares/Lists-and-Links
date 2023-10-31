@@ -3,6 +3,136 @@
 <head>
  
     <title>Lists and Links</title>
+    <h1>Ordered Lists</h1>
+    <p>There are different types of Ordered Lists, they're numbered by default.</p>
+    <br>
+    <p>Type 1 = Numerical (default).
+<br> Type A= The list will be numbered with uppercase letters.
+<br> type a= The list will be numbered with lowercase letters.
+<br> Type I=The list items will be numbered with uppercase roman numbers.
+<br> type="i"	The list items will be numbered with lowercase roman numbers.
+<br> An example of what each ordered list looks like:
+<br> Type 1: <ol type="1"> <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+    <br> Type A: <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <br> <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <br><ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <br><ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol></p>
+      <hr>
+      <h1>Unordered Lists</h1>
+      <p>There are different types of unordered lists and uses CSS life-style-type property to define the style of the marker.
+      <br>  disc- ets the list item marker to a bullet (default)
+      <br>circle-Sets the list item marker to a circle
+      <br>square-Sets the list item marker to a square
+      <br>none-The list items will not be marked
+      <br> An example of what it looks like:
+      <br> Disc: <ul style="list-style-type:disc;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      <br> Circle: <ul style="list-style-type:circle;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      <br>
+      Square: <ul style="list-style-type:square;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      <br> None: <ul style="list-style-type:none;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+<hr>
+    </p>
+    <h1>Definition Lists</h1>
+    <p>Definies a description list and is used in conjuction with <dt>(defines terms/names) and <dd>(describes each term/name)
+<br> <h3>Global Attributes</h3>
+ <dl> The tag also supports the Global Attributes in HTML.
+    <br>
+    <h3>Event Attributes</h3>
+     <dl> The tag also supports the Event Attributes in HTML.
+        <br> <h3>Related Pages</h3>
+        HTML tutorial: HTML Lists
+
+HTML DOM reference: DList Object
+<br> <h3>Default CSS Settings</h3>
+Most browsers will display the <dl> element with the following default values.
+    an example: dl {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+    </p>
+    <hr>
+    <h1>Nested Lists</h1>
+    <p>Lists can be nested (list inside list):</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+<h1>Anchor tags</h1>
+<br> 
+<p>The <a> tag defines a hyperlink. which is used to link pages together. The most important attribute of the tag is the href element which indicates the destination of the link.  
+
+   <br> <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+   By default, links will appear as follows in all browsers:
+<ol>
+   <li>An unvisited link is underlined and blue</li>
+  <li> A visited link is underlined and purple</li>
+   <li>An active link is underlined and red</li>
+</ol>
+</p>
+<hr>
+<h1>Malito</h1>
+    <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+
+<p><a href="mailto:someone@example.com">Send email</a></p>
+<h1>Tel:</h1>
+<p>Defines a field for entering a telephone number
+    <p><a href="tel:+4733378901">+47 333 78 901</a></p>
+
+</p>
+<hr>
+<h1>Target Attribute</h1>
+<p>Specifies where to open the linked document
+    <p>Open link in a new window or tab: <a href="https://www.w3schools.com" target="_blank">Visit W3Schools!</a></p>
+
+</p>
+
+
 </head>
 <body>
     
